@@ -1,0 +1,110 @@
+.background-login-desktop{
+   width: 38.5vw;
+   height: 100vh;
+}
+.login-container{
+    display: flex;
+}
+
+.login-section{
+    width: 55vw;
+    height: 100vh;
+    padding: 15px 220px; 
+    box-sizing: border-box;
+}
+
+.form {
+    /* background-color: blue; */
+    margin: 44px 0;
+}
+.form-input{
+    /* background-color: blueviolet; */
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding: 0 0 3px 0;
+    margin: 45px 0;
+    width: 400px;
+    border-bottom: 1px solid #ADB5BD;
+}
+
+.form-input input {
+    width: 470px;
+    height: 33px;
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px; 
+    line-height: 29px;
+    color: #343A40;
+}
+
+.form-final-options{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 44px 0;
+    width: 400px;
+}
+
+.form-final-options button {
+    width: 400px;
+    height: 42px;
+    background: #F5B2E8;
+    backdrop-filter: blur(96.6425px);
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-final-options a{
+    /* background-color: aqua; */
+    text-align: end;
+    color: #BE3BA5;
+
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.container-authentication{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    margin: -25px 0;
+    width: 400px;
+}
+.container-authentication p{
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+ }
+ 
+ .container-authentication button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+ }
+
+
+

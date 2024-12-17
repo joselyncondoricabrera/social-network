@@ -1,0 +1,110 @@
+.signup-container{
+    display: flex;
+}
+
+.background-signup-desktop {
+    width: 40vw;
+    height: 100vh;
+}
+
+.signup-section{
+    padding: 15px 220px;
+    flex-direction: column;
+    background-image: url('../assets/df.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    box-sizing: border-box;
+}
+
+.signup-section h1 {
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    color: #343A40;
+}
+
+.signup-section p{
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #343A40;
+}
+
+.form {
+    margin: 44px 0;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 0 3px 0;
+    margin: 45px 0;
+    width: 400px;
+    border-bottom: 1px solid #ADB5BD;
+}
+
+.form-input input {
+    width: 470px;
+    height: 33px;
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+ 
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px; 
+    line-height: 29px;
+    color: #343A40;
+}
+
+.form-input input::placeholder {
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    color: #ADB5BD;
+ }
+
+.form-final-options {
+    margin: 44px 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.form-final-options button {
+    width: 400px;
+    height: 42px;
+    margin: 10px 0;
+    background: #F5B2E8;
+    backdrop-filter: blur(96.6425px);
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+ 
+    
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-final-options a {
+    text-align: end;
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    color: #BE3BA5;
+ } 
